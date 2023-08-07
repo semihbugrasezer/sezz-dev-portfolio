@@ -1,0 +1,65 @@
+---
+import { SEO } from "astro-seo";
+import { SITE_URL } from "@/data/config";
+
+type Props = {
+  title?: string;
+  description?: string;
+  noindex?: boolean;
+  og?: {
+    title: string;
+    type: string;
+    description: string;
+    image: string;
+    alt: string;
+  };
+};
+
+const { title, description, noindex, og } = Astro.props;
+
+const DEFAULT_TITLE_PAGE = "Semih Buğra Sezer - Portfolio Website";
+const DEFAULT_DESCRIPTION_PAGE =
+  "My portfolio website showcases my diverse range of creative projects and professional accomplishments, demonstrating my passion and expertise in various fields.";
+const DEFAULT_URL_SITE = SITE_URL;
+
+const openGraph = {
+  title: og?.title || DEFAULT_TITLE_PAGE,
+  type: og?.type || "website",
+  image: og?.image || "/opengraph-image.jpg",
+  alt: og?.alt || "portfolio image",
+  url: DEFAULT_URL_SITE,
+  description: og?.description || DEFAULT_DESCRIPTION_PAGE,
+};
+---
+
+<head>
+  <SEO
+    charset="UTF-8"
+    title={title || DEFAULT_TITLE_PAGE}
+    description={description || DEFAULT_DESCRIPTION_PAGE}
+    noindex={noindex || false}
+    openGraph={{
+      basic: {
+        title: openGraph.title,
+        type: openGraph.type,
+        image: openGraph.image,
+      },
+      image: {
+        alt: openGraph.alt,
+      },
+    }}
+    sezzdev.={{
+      creator: "sezz.dev",
+    }}
+    extend={{
+      link: [
+        { rel: "icon", href: "/favicon.svg" },
+        { rel: "sitemap", href: "/sitemap-index.xml" },
+      ],
+      meta: [
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+        { name: "generator", content: Astro.generator },
+      ],
+    }}
+  />
+</head>
