@@ -1,7 +1,7 @@
 ---
 title: "Supervised Machine Learning: Empowering Decision"
 publishedAt: 2023-08-14
-description: "Supervised Machine Learning: Empowering Decision-Making in the Digital Age"
+description: "Making in the Digital Age"
 slug: "empowering-decision"
 isPublish: true
 ---
