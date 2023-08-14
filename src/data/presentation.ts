@@ -23,8 +23,8 @@ const presentation: Presentation = {
       link: "https://linkedin.com/in/semihbugrasezer",
     },
     {
-      label: "Bento",
-      link: "https://bento.me/sezz",
+      label: "Kaggle",
+      link: "https://www.kaggle.com/semihbugrasezer",
     },
     {
       label: "Github",
