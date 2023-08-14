@@ -12,10 +12,9 @@ const projects: Project[] = [
     link: "https://github.com/semihbugrasezer/rockvsmine",
   },
   {
-    title: "Portfolio / Template",
-    techs: ["Astro"],
-    link: "/",
-    isComingSoon: true,
+    title: "Chat to Multi PDF",
+    techs: ["Langchain","Streamlit","Large Language Model"],
+    link: "https://github.com/semihbugrasezer/chat-to-multipdf",
   },
   {
     title: "Portfolio / Template",
