@@ -8,7 +8,7 @@ isPublish: true
 
 Supervised machine learning, a pivotal branch of artificial intelligence, thrives on labeled data, where each data point is already paired with its correct outcome. This strategic approach empowers machine learning models to accurately predict outcomes for new, unseen data. The utilization of supervised ML spans across an array of critical applications, exemplified by:
 
-1. 'Credit Scoring:' By employing supervised ML models, lenders can proactively assess the risk of default for borrowers, enabling them to make more informed and calculated lending decisions.
+1. <font color="red">Credit Scoring:</font> By employing supervised ML models, lenders can proactively assess the risk of default for borrowers, enabling them to make more informed and calculated lending decisions.
 
 2. 'Fraud Detection:' Businesses leverage supervised ML models to swiftly identify and flag fraudulent transactions, thereby safeguarding themselves from substantial financial losses.
 
