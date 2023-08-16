@@ -16,7 +16,16 @@ const presentation: Presentation = {
   title: "Hi, I’m Semih Buğra 👋",
   profile: "/profile.webp",
   description:
-    "I am a computer engineering student who is passionate about artificial intelligence and machine learning. I have completed several courses and projects on these topics, using various tools and frameworks such as Python, TensorFlow, PyTorch, and Vertex AI. I am eager to apply my skills and knowledge to real-world problems and challenges.",
+    "As a computer engineering student with a passion for artificial intelligence and machine learning, I have developed hands-on skills and knowledge through courses and projects using leading tools like Python, TensorFlow, PyTorch, and Google Cloud's Vertex AI platform. Through implementing neural networks, training models, and analyzing data, I've gained experience with supervised learning techniques including classification, regression, and clustering. I'm excited to further apply reinforcement and unsupervised learning methods to complex real-world problems across industries. My goal is to continue building expert-level proficiency in AI while exploring how responsible, ethical AI can make a positive global impact. I'm eager to join a team and contribute my skills to develop innovative AI solutions.
+
+Some of the key points included:
+
+Specific ML methods like supervised, unsupervised, reinforcement learning
+Leading AI tools and platforms you have used
+Industry applications and ethical considerations
+Contributing to a team to build solutions
+Your excitement to apply skills to real-world problems
+Let me know if you would like me to modify or expand on any part of the rephrased background. I can also provide examples of AI project achievements you could include.",
   socials: [
     {
       label: "Linkedin",
